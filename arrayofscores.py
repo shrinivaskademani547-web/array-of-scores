@@ -1,6 +1,6 @@
 import sys
 
-scores = list(map(int, sys.argv[1;]))
+scores = list(map(int, sys.argv[1:]))
 
 total = sum(scores)
 average = total / len(scores)
